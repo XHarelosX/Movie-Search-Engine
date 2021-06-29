@@ -1,0 +1,16 @@
+.card {
+  background-color: aliceblue;
+  list-style: none;
+  padding: 0.8rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80vw;
+  box-shadow: 0 2px 8px;
+}
+
+@media (min-width: 1008px) {
+  .card {
+    flex-basis: 620px;
+  }
+}

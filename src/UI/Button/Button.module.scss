@@ -1,0 +1,15 @@
+.btn {
+  background-color: navy;
+  color: aliceblue;
+  margin: 0.5em;
+  padding: 0 0.4em;
+  width: 60px;
+  height: 25px;
+}
+
+@media (min-width: 1008px) {
+  .btn {
+    width: 70px;
+    height: 30px;
+  }
+}

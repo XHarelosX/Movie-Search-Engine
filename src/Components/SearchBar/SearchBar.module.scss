@@ -1,0 +1,33 @@
+.div_search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+  background-color: bisque;
+}
+
+.title {
+  text-decoration: underline;
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .search {
+    width: 45vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}

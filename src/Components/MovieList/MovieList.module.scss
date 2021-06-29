@@ -1,0 +1,14 @@
+.div_search {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+}
+.div_search_items_found {
+  top: calc(30vh - 10rem);
+}
+.ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
