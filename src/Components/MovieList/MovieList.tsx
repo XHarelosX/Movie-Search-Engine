@@ -25,7 +25,7 @@ const MovieList: React.FC<MovieListProps> = () => {
 
   function getMoviesByInput(input: string) {
     return fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=b6682813&t=${input}&plot=full`
+      `https://www.omdbapi.com/?i=tt3896198&apikey=b6682813&t=${input}&plot=full`
     );
   }
 
